@@ -13,3 +13,8 @@ model Doctor {
   name        String
   description String?
 }
+model Patient{
+  id          Int      @id @default(autoincrement())
+  name        String  
+  illness     String
+}
